@@ -10,7 +10,7 @@ public class ReverseArray {
         for (int i = 0; i < intArray.length; i++) {
             intArray[i] = i;
         }
-        System.out.println("临时变量temp翻转数组：");
+        System.out.println("翻转数组1：");
         int[] reverse = reverse(intArray);
         for (int i : reverse) {
             System.out.print(i + ",");
@@ -21,21 +21,11 @@ public class ReverseArray {
             intArray1[i] = 10 + i;
         }
         System.out.println();
-        System.out.println("异或操作翻转数组：");
+        System.out.println("翻转数组2：");
         for (int i : reverse1(intArray1)) {
             System.out.print(i + ",");
         }
 
-
-        int[] intArray2 = new int[LENGTH];
-        for (int i = 0; i < LENGTH; i++) {
-            intArray2[i] = 20 + i;
-        }
-        System.out.println();
-        System.out.println("等价异或翻转数组：");
-        for (int i : reverse2(intArray2)) {
-            System.out.print(i + ",");
-        }
     }
 
     /**
@@ -55,36 +45,16 @@ public class ReverseArray {
     }
 
     /**
-     * 异或操作实现交换两个变量
-     * 当 a ,b 相等时，该方法不适用。
+     * 第二种方案来实现
      *
      * @param array
      * @return
      */
     private static int[] reverse1(int[] array) {
-        for (int i = 0; i < array.length / 2; i++) {
-            array[i] = array[i] ^ array[array.length - 1 - i];
-            array[array.length - 1 - i] = array[i] ^ array[array.length - 1 - i];
-            array[i] = array[i] ^ array[array.length - 1 - i];
-        }
-        return array;
-    }
-
-    /**
-     * 交换两个变量
-     * a = a + b；
-     * b = a - b; 此时 b = a;
-     * a = a - b; 等价于 a + b - b;
-     * 该方法的前提是：a + b 的值不能溢出
-     *
-     * @param array
-     * @return
-     */
-    private static int[] reverse2(int[] array) {
-        for (int i = 0; i < array.length / 2; i++) {
-            array[i] = array[i] + array[array.length - 1 - i];
-            array[array.length - 1 - i] = array[i] - array[array.length - 1 - i];
-            array[i] = array[i] - array[array.length - 1 - i];
+        for (int start = 0, end = array.length - 1; start <= end; start++, end--) {
+            int temp = array[start];
+            array[start] = array[end];
+            array[end] = temp;
         }
         return array;
     }
