@@ -4,7 +4,14 @@ package sort;
  * 冒泡排序不错的讲解：
  * https://blog.csdn.net/guoweimelon/article/details/50902597
  *
+ *冒泡排序（Bubble Sort）是一种典型的交换排序算法，通过交换数据元素的位置进行排序。
  *
+ * 冒泡排序的动画演示：
+ * https://www.toptal.com/developers/sorting-algorithms/bubble-sort
+ *
+ *
+ * 冒泡的wiki:
+ * https://zh.wikipedia.org/wiki/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F
  *
  */
 public class BubbleSort {
