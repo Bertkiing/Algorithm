@@ -2,7 +2,7 @@ package algohub
 
 import java.util.*
 
-class MinStack{
-    val stack = Stack<Int>()
+ class KMinStack{
+//    val stack = Stack<Int>()
 
 }
