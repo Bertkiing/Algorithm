@@ -11,6 +11,12 @@ import kotlin.collections.HashMap
  *
  * 参考文章：https://blog.csdn.net/ryjflyshy/article/details/78250348
  *
+ * https://blog.csdn.net/zhangxiangdavaid/article/details/37115355
+ *
+ *
+ * https://blog.csdn.net/qq_37597859/article/details/79849668
+ *
+ *
  */
 class Node(value: Int, lChild: Node?, rChild: Node?) {
     var value: Int = value
@@ -152,7 +158,14 @@ class BinaryTreeTraversal {
      *
      *
      * 理解2：
-     * 
+     * 中序遍历的递归定义：先左子树，根节点，右子树
+     *
+     * 非递归代码：代码跟着我们思维走
+     * 我们的思维是什么？思维就是中序遍历的路径。
+     * 假设我们看到二叉树。
+     * 首先我们 会立刻找到左子树的最下边的节点
+     *
+     *
      *
      */
     fun inOrderStack(root: Node?) {
@@ -170,7 +183,27 @@ class BinaryTreeTraversal {
         }
     }
 
+    fun inOrderStack1(root: Node?) {
+        var root: Node? = root ?: return
+        var stack = Stack<Node>()
+        while (stack.isNotEmpty() || root != null) {
 
+            /**
+             * 一直遍历到左子树最下边
+             */
+            while (root != null) {
+                stack.push(root)
+                root = root.lChild
+            }
+
+            if (stack.isNotEmpty()) {
+                root = stack.pop()
+                print(root.value.toString() + " ,")
+                root = root.rChild
+            }
+
+        }
+    }
 
 
     /**
@@ -403,6 +436,10 @@ fun main(args: Array<String>) {
     println()
     println("<------LNR中序遍历-----非递归------>")
     traversal.inOrderStack(one)
+
+    println()
+    println("<------LNR中序遍历-----非递归1------>")
+    traversal.inOrderStack1(one)
 
 
 
