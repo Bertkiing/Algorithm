@@ -2,46 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dee0c124-015e-41db-9d0a-9f256683e357" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/book/LinearSearch.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/book/binary/BinarySearch.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/book/linear/JLinearSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/king.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AD/BinaryTreeTraversal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AD/DoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AD/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AD/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Exchange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Gcd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/LeetCode_209.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/ReverseArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/sort/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/sort/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/sort/算法-排序.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/sort/选择排序" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algohub/KLongestValidParentheses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/KLongestValidParentheses.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algohub/KMinStack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/KMinStack.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algohub/KValidParenthese.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/KValidParenthese.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algohub/LargestRectangleInHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/LargestRectangleInHistogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algohub/LongestValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/LongestValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algohub/MaxSum4SubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/MaxSum4SubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algohub/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algohub/SwapWithoutExtraSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/SwapWithoutExtraSpace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algohub/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/Leecode155.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/Leecode155.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/Leecode189.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/Leecode189.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/Leecode190.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/Leecode190.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/Leecode191.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/Leecode191.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/Leecode201.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/Leecode201.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/Leecode203.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/Leecode203.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/Leecode205.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/Leecode205.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/Leecode206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/Leecode206.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/linkedlist/Leecode141.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/linkedlist/Leecode141.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/linkedlist/Leecode21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/linkedlist/Leecode21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/linkedlist/Leecode234.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/linkedlist/Leecode234.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/linkedlist/Leecode237.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/linkedlist/Leecode237.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/META-INF/X-plan.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/META-INF/X-plan.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/book/MergeSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/book/MergeSort.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,55 +20,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Leecode234.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leecode/linkedlist/Leecode234.java">
+      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sort/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="420">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSort.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/book/MergeSort.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AD/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeTraversal.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AD/BinaryTreeTraversal.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1965">
+              <caret line="149" column="7" selection-start-line="149" selection-start-column="7" selection-end-line="149" selection-end-column="7" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#isPalindrome#0;class#Leecode234#0" />
-                <element signature="method#isPalindrome2#0;class#Leecode234#0" />
-                <element signature="method#reverse#0;class#Leecode234#0" />
-                <element signature="method#recurse#0;class#Leecode234#0" />
-                <element signature="method#main#0;class#Leecode234#0" />
+                <element signature="e#12#64#0" expanded="true" />
+                <element signature="n#!!block;n#preOrderStack2#0;n#!!block;n#BinaryTreeTraversal#0" />
+                <element signature="n#!!block;n#postOrderStack1#0;n#!!block;n#BinaryTreeTraversal#0" />
+                <element signature="n#!!block;n#postOrder#0;n#!!block;n#BinaryTreeTraversal#0" />
+                <element signature="n#!!block;n#postOrderStack#0;n#!!block;n#BinaryTreeTraversal#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinearSearch.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/book/LinearSearch.kt">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="1">
+              <caret line="651" column="17" lean-forward="true" selection-start-line="651" selection-start-column="17" selection-end-line="651" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JLinearSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/book/linear/JLinearSearch.java">
+      <file leaf-file-name="DoubleLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AD/DoubleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="method#findNodebyValue#0;class#DoubleLinkedList#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinarySearch.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/book/binary/BinarySearch.kt">
+      <file leaf-file-name="Library.kt" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Library.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sort/InsertSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="660">
+              <caret line="58" column="44" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -115,36 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/SelectionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-760">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="算法-排序.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/算法-排序.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="选择排序" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/选择排序">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29" />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
+            <state relative-caret-position="1560">
               <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
             </state>
           </provider>
@@ -203,13 +166,20 @@
         <option value="$PROJECT_DIR$/src/book/JLinearSearch.java" />
         <option value="$PROJECT_DIR$/src/book/linear/JLinearSearch.java" />
         <option value="$PROJECT_DIR$/src/book/binary/BinarySearch.kt" />
+        <option value="$PROJECT_DIR$/src/book/MergeSort.kt" />
+        <option value="$PROJECT_DIR$/src/AD/Node.java" />
+        <option value="$PROJECT_DIR$/src/AD/Test01.java" />
+        <option value="$PROJECT_DIR$/src/AD/DoubleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/AD/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/AD/BinaryTreeTraversal.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-65" />
+    <option name="y" value="129" />
     <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -217,6 +187,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,19 +204,12 @@
               <item name="X-plan" type="b2602c69:ProjectViewProjectNode" />
               <item name="X-plan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="X-plan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="X-plan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="AD" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,25 +232,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
-    <configuration name="JLinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book.linear.JLinearSearch" />
+  <component name="RunManager" selected="Kotlin.AD.BinaryTreeTraversalKt">
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AD.LinkedList" />
       <module name="X-plan" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.linear.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Leecode234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.linkedlist.Leecode234" />
-      <module name="X-plan" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leecode.linkedlist.*" />
+          <option name="PATTERN" value="AD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,6 +274,26 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="AD.BinaryTreeTraversalKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="X-plan" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="AD.BinaryTreeTraversalKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="book.MergeSortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="X-plan" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="book.MergeSortKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration name="book.binary.BinarySearchKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="X-plan" />
       <option name="VM_PARAMETERS" />
@@ -329,16 +302,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="book.binary.BinarySearchKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration name="book.linear.LinearSearchKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="X-plan" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="book.linear.LinearSearchKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -364,19 +327,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Leecode234" />
-      <item itemvalue="Kotlin.book.linear.LinearSearchKt" />
-      <item itemvalue="Application.JLinearSearch" />
       <item itemvalue="Kotlin.book.binary.BinarySearchKt" />
       <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Kotlin.book.MergeSortKt" />
+      <item itemvalue="Application.LinkedList" />
+      <item itemvalue="Kotlin.AD.BinaryTreeTraversalKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AD.BinaryTreeTraversalKt" />
+        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Kotlin.book.MergeSortKt" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Kotlin.book.binary.BinarySearchKt" />
-        <item itemvalue="Application.JLinearSearch" />
-        <item itemvalue="Kotlin.book.linear.LinearSearchKt" />
-        <item itemvalue="Application.Leecode234" />
       </list>
     </recent_temporary>
   </component>
@@ -394,25 +357,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Cargo" order="4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32384825" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.69709545" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37669376" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6500692" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23848239" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6500692" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -428,16 +392,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
-        <watch expression="i" language="kotlin" />
+        <watch expression="stack" language="kotlin" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>stack</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>i</expression-string>
         <language-id>kotlin</language-id>
@@ -446,55 +415,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algohub/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="73" column="44" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="73" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4515">
-          <caret line="341" column="48" lean-forward="true" selection-start-line="341" selection-start-column="48" selection-end-line="341" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algohub/KMinStack.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
@@ -721,15 +641,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leecode/ReadMe.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -737,14 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#isPalindrome#0;class#Leecode234#0" />
-            <element signature="method#isPalindrome2#0;class#Leecode234#0" />
-            <element signature="method#reverse#0;class#Leecode234#0" />
-            <element signature="method#recurse#0;class#Leecode234#0" />
-            <element signature="method#main#0;class#Leecode234#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,7 +683,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-760">
+        <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
@@ -784,14 +696,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/选择排序">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
+        <state relative-caret-position="1560">
           <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
         </state>
       </provider>
@@ -805,8 +712,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/InsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="420">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Library.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="58" column="44" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AD/DoubleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="method#findNodebyValue#0;class#DoubleLinkedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="651" column="17" lean-forward="true" selection-start-line="651" selection-start-column="17" selection-end-line="651" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AD/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/MergeSort.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="806" column="30" selection-start-line="806" selection-start-column="30" selection-end-line="806" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AD/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AD/BinaryTreeTraversal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1965">
+          <caret line="149" column="7" selection-start-line="149" selection-start-column="7" selection-end-line="149" selection-end-column="7" />
+          <folding>
+            <element signature="e#12#64#0" expanded="true" />
+            <element signature="n#!!block;n#preOrderStack2#0;n#!!block;n#BinaryTreeTraversal#0" />
+            <element signature="n#!!block;n#postOrderStack1#0;n#!!block;n#BinaryTreeTraversal#0" />
+            <element signature="n#!!block;n#postOrder#0;n#!!block;n#BinaryTreeTraversal#0" />
+            <element signature="n#!!block;n#postOrderStack#0;n#!!block;n#BinaryTreeTraversal#0" />
+          </folding>
         </state>
       </provider>
     </entry>
