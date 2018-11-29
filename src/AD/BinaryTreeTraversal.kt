@@ -472,4 +472,6 @@ fun main(args: Array<String>) {
     println("<------层次遍历-----队列------>")
     traversal.levelTravel(one)
 
+
+
 }

@@ -126,25 +126,11 @@ public class LinkedList {
     }
 
 
-    public static void main(String[] args) {
-        LinkedList linkedList = new LinkedList();
-        linkedList.addNode(new Node(1));
-        linkedList.addNode(new Node(2));
-        linkedList.addNode(new Node(3));
-        linkedList.insertNodeByIndex(2, new Node(10));
-        linkedList.deleteNodeByIndex(2);
-        int length = linkedList.length();
-        System.out.println(length);
-
-        linkedList.travese();
-    }
-
-
     /*************延伸LinkedList*****************/
 
     /**
      * 从尾到头打印链表
-     *
+     * <p>
      * 解法：先遍历链表,每遍历到的元素都存在栈中
      */
     public void reverseTraverse(Node node) {
@@ -168,23 +154,65 @@ public class LinkedList {
     }
 
 
-    public Node reverse(){
-        Node temp = head;
+    /**
+     * 输入链表头节点，反转链表并输出反转后链表的头节点
+     * <p>
+     * 解法:借助于三个指针：p, q , r(避免指针断裂)
+     *
+     * @param head
+     * @return
+     */
+    public Node reverse(Node head) {
+        Node p = head;
         try {
-            if(temp != null){
-                Node p = temp.next;
-                temp.next = null;
+            if (p != null) {
+                Node pnext = p.next;
+                p.next = null;
 
-                while (p != null){
-                    Node r = p.next;
+                while (pnext != null) {
+                    Node r = pnext.next;
+                    pnext.next = p;
+                    p = pnext;
+                    pnext = r;
                 }
+            } else {
+                throw new Exception("empty list");
             }
 
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
-        }finally {
-            return temp;
+        } finally {
+            return p;
         }
     }
+
+    static class Node {
+        public int data;
+
+        public Node next;
+
+        public Node(int data) {
+            this.data = data;
+        }
+    }
+
+
+    public static void main(String[] args) {
+        LinkedList linkedList = new LinkedList();
+        Node node = new Node(1);
+        linkedList.addNode(node);
+        linkedList.addNode(new Node(2));
+        linkedList.addNode(new Node(3));
+        linkedList.insertNodeByIndex(2, new Node(10));
+        linkedList.deleteNodeByIndex(2);
+        int length = linkedList.length();
+        System.out.println(length);
+        linkedList.travese();
+
+        Node reverse = linkedList.reverse(node);
+        System.out.println(reverse.data);
+
+    }
+
 
 }

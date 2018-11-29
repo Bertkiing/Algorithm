@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dee0c124-015e-41db-9d0a-9f256683e357" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AD/BF4String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AD/KMP4String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/BinaryTreeTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/BinaryTreeTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/BinaryTreeTraversalKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/BinaryTreeTraversalKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AD/BinaryTreeTraversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AD/BinaryTreeTraversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AD/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AD/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AD/Node.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,95 +24,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/InsertSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSort.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/book/MergeSort.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AD/Node.java">
+      <file leaf-file-name="Tree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sort/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryTreeTraversal.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AD/BinaryTreeTraversal.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding>
-                <element signature="e#12#64#0" expanded="true" />
-                <element signature="n#!!block;n#preOrderStack2#0;n#!!block;n#BinaryTreeTraversal#0" />
-                <element signature="n#!!block;n#postOrderStack1#0;n#!!block;n#BinaryTreeTraversal#0" />
-                <element signature="n#!!block;n#postOrder#0;n#!!block;n#BinaryTreeTraversal#0" />
-                <element signature="n#!!block;n#postOrderStack#0;n#!!block;n#BinaryTreeTraversal#0" />
+                <element signature="method#insert#0;class#Tree#0" />
+                <element signature="method#getMin#0;class#Tree#0" />
+                <element signature="method#getMax#0;class#Tree#0" />
+                <element signature="method#getPre#0;class#Tree#0" />
+                <element signature="method#getSucceed#0;class#Tree#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="651" column="17" lean-forward="true" selection-start-line="651" selection-start-column="17" selection-end-line="651" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DoubleLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AD/DoubleLinkedList.java">
+      <file leaf-file-name="BF4String.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AD/BF4String.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KMP4String.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AD/KMP4String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="81" column="41" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="81" selection-end-column="41" />
               <folding>
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="method#findNodebyValue#0;class#DoubleLinkedList#0" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Library.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Library.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="58" column="44" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -112,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -164,14 +118,16 @@
         <option value="$PROJECT_DIR$/src/AD/Node.java" />
         <option value="$PROJECT_DIR$/src/AD/Test01.java" />
         <option value="$PROJECT_DIR$/src/AD/DoubleLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/AD/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/AD/BinaryTreeTraversal.kt" />
+        <option value="$PROJECT_DIR$/src/AD/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/sort/Tree.java" />
+        <option value="$PROJECT_DIR$/src/AD/KMP4String.java" />
+        <option value="$PROJECT_DIR$/src/AD/BF4String.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-65" />
-    <option name="y" value="129" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -180,8 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,10 +158,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -226,7 +182,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.AD.BinaryTreeTraversalKt">
+  <component name="RunManager" selected="Application.BF4String">
+    <configuration name="BF4String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AD.BF4String" />
+      <module name="X-plan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="KMP4String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AD.KMP4String" />
+      <module name="X-plan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AD.LinkedList" />
       <module name="X-plan" />
@@ -238,8 +216,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.SelectionSort" />
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.Tree" />
       <module name="X-plan" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -278,26 +256,6 @@
       <option name="MAIN_CLASS_NAME" value="AD.BinaryTreeTraversalKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="book.MergeSortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="X-plan" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="book.MergeSortKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration name="book.binary.BinarySearchKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="X-plan" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="book.binary.BinarySearchKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -321,19 +279,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.book.binary.BinarySearchKt" />
-      <item itemvalue="Application.SelectionSort" />
-      <item itemvalue="Kotlin.book.MergeSortKt" />
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Kotlin.AD.BinaryTreeTraversalKt" />
+      <item itemvalue="Application.Tree" />
+      <item itemvalue="Application.BF4String" />
+      <item itemvalue="Application.KMP4String" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.AD.BinaryTreeTraversalKt" />
+        <item itemvalue="Application.BF4String" />
+        <item itemvalue="Application.KMP4String" />
+        <item itemvalue="Application.Tree" />
         <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Kotlin.book.MergeSortKt" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Kotlin.book.binary.BinarySearchKt" />
+        <item itemvalue="Kotlin.AD.BinaryTreeTraversalKt" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +309,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -361,7 +319,7 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6500692" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36099586" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
@@ -386,8 +344,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="27" />
+      <option name="time" value="28" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="stack" language="kotlin" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -404,34 +367,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="104" column="31" lean-forward="true" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4515">
-          <caret line="341" column="48" selection-start-line="341" selection-start-column="48" selection-end-line="341" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algohub/KValidParenthese.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -699,50 +634,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Library.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="58" column="44" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AD/DoubleLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="method#findNodebyValue#0;class#DoubleLinkedList#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="651" column="17" lean-forward="true" selection-start-line="651" selection-start-column="17" selection-end-line="651" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AD/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/book/MergeSort.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -753,24 +648,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AD/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/AD/Node.java" />
+    <entry file="file://$PROJECT_DIR$/2018年1月份计划.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AD/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="646">
+          <caret line="159" column="33" selection-start-line="159" selection-start-column="33" selection-end-line="159" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AD/BinaryTreeTraversal.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="391">
+          <caret line="463" selection-start-line="463" selection-end-line="463" />
           <folding>
-            <element signature="e#12#64#0" expanded="true" />
+            <element signature="n#!!block;n#preOrderStack1#0;n#!!block;n#BinaryTreeTraversal#0" />
             <element signature="n#!!block;n#preOrderStack2#0;n#!!block;n#BinaryTreeTraversal#0" />
+            <element signature="n#!!block;n#inOrderStack#0;n#!!block;n#BinaryTreeTraversal#0" />
+            <element signature="n#!!block;n#inOrderStack1#0;n#!!block;n#BinaryTreeTraversal#0" />
             <element signature="n#!!block;n#postOrderStack1#0;n#!!block;n#BinaryTreeTraversal#0" />
             <element signature="n#!!block;n#postOrder#0;n#!!block;n#BinaryTreeTraversal#0" />
             <element signature="n#!!block;n#postOrderStack#0;n#!!block;n#BinaryTreeTraversal#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AD/DoubleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="method#findNodebyValue#0;class#DoubleLinkedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="651" column="17" selection-start-line="651" selection-start-column="17" selection-end-line="651" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/MergeSort.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="method#insert#0;class#Tree#0" />
+            <element signature="method#getMin#0;class#Tree#0" />
+            <element signature="method#getMax#0;class#Tree#0" />
+            <element signature="method#getPre#0;class#Tree#0" />
+            <element signature="method#getSucceed#0;class#Tree#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AD/KMP4String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="81" column="41" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="81" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AD/BF4String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
