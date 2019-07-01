@@ -21,4 +21,11 @@ fun main(args: Array<String>) {
     println(bigDecimal.toString().toFloat())
 
 
+
+    var list = arrayListOf<Int>()
+    list.forEach {
+        println(it)
+    }
+
+
 }
