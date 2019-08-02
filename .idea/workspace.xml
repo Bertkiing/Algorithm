@@ -2,61 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dee0c124-015e-41db-9d0a-9f256683e357" name="Default" comment="添加线程的基本概念...">
-      <change afterPath="$PROJECT_DIR$/.idea/emacs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/AD/BFS4GraphKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/AD/Edge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/AD/Graph.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/AD/HuffmanTree$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/AD/HuffmanTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/AD/KMP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/AD/RPN.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/AD/Vertex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/Design_Parttern/Builder_DP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/Design_Parttern/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/Design_Parttern/CarBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/Design_Parttern/User$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/Design_Parttern/User$UserBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/Design_Parttern/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack2Kt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStackKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/StackByArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/StackByArrayKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/book/AGcdKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/leecode/Leecode390Kt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/Audi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/AudiColor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/BMW.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/BMWColor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/Color.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/ExecutorTest$MyRunnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/ExecutorTest$MyThreadFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/ExecutorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/KMaxKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/MyCallable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/MyRunnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/ReturnMoreKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/test/TestException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/thread_review/BasicRunnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/thread_review/ThreadBasic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/X-plan/thread_review/ThreadBasicKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AD/BFS4Graph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/Builder_DP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algohub/QueueByStack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algohub/QueueByStack2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algohub/StackByArray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/book/AGcd.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ExecutorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ReturnMore.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/TestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algohub/CircularQueueByArray/Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algohub/linkedList/Node.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/BFS4GraphKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/BFS4GraphKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/BinaryTreeTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/BinaryTreeTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/BinaryTreeTraversalKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/BinaryTreeTraversalKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/Vertex.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/X-plan/META-INF/X-plan.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/META-INF/X-plan.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/KLongestValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/KLongestValidParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/KLongestValidParenthesesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/KLongestValidParenthesesKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/KMinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/KMinStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/KValidParenthese.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/KValidParenthese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/KValidParentheseKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/KValidParentheseKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack2Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStackKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStackKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/StackByArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/StackByArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/StackByArrayKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/StackByArrayKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/book/AGcdKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/book/AGcdKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/book/LinearSearchKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/book/LinearSearchKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/book/MergeSortKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/book/MergeSortKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/book/binary/BinarySearchKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/book/binary/BinarySearchKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/leecode/Leecode390Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/leecode/Leecode390Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/Audi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/Audi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/AudiColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/AudiColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/BMW.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/BMW.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/BMWColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/BMWColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/KMaxKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/KMaxKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/KTestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/KTestKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/ReturnMoreKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/ReturnMoreKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/thread_review/BasicRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/thread_review/BasicRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/thread_review/ThreadBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/thread_review/ThreadBasic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/thread_review/ThreadBasicKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/thread_review/ThreadBasicKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,16 +55,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Unsafe.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5295">
+              <caret line="412" column="16" selection-start-line="412" selection-start-column="16" selection-end-line="412" selection-end-column="16" />
+              <folding>
+                <element signature="e#19430#20867#0" />
+                <element signature="e#21248#22976#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ExecutorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ExecutorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+            <state relative-caret-position="1155">
+              <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2313#2314#0" expanded="true" />
-                <element signature="e#2404#2405#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CircleQueue.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-806">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CircleQueue2.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue2.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/Test.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algohub/linkedList/Node.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="240" column="16" lean-forward="true" selection-start-line="240" selection-start-column="16" selection-end-line="240" selection-end-column="16" />
+              <folding>
+                <element signature="n#!!block;n#insertAfterGivenNode#0;n#!!block;n#LinkedList#0" />
+                <element signature="n#!!block;n#append#0;n#!!block;n#LinkedList#0" />
+                <element signature="n#!!block;n#deleteNode#0;n#!!block;n#LinkedList#0" />
+                <element signature="n#!!block;n#deleteNodeByPosition#0;n#!!block;n#LinkedList#0" />
+                <element signature="n#!!block;n#getCountByIterative#0;n#!!block;n#LinkedList#0" />
+                <element signature="n#!!block;n#getCountByRecurisive#0;n#!!block;n#LinkedList#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.kt" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Arrays.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1185">
+              <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Array.kt" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -85,90 +154,8 @@
       <file leaf-file-name="ReturnMore.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ReturnMore.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tuples.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/util/Tuples.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Executors.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Executors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2667">
-              <caret line="56" column="57" lean-forward="true" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StackByArray.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algohub/StackByArray.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="104" column="35" lean-forward="true" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueueByStack.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algohub/QueueByStack.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="95" column="31" lean-forward="true" selection-start-line="90" selection-start-column="2" selection-end-line="95" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueueByStack2.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algohub/QueueByStack2.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding>
-                <element signature="n#!!block;n#QueueByStack2#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vector.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Vector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="344" column="32" selection-start-line="344" selection-start-column="32" selection-end-line="344" selection-end-column="32" />
-              <folding>
-                <element signature="e#12863#12864#0" expanded="true" />
-                <element signature="e#12903#12904#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-664">
-              <caret line="131" column="34" selection-start-line="38" selection-end-line="131" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stack.class" pinned="false" current-in-tab="false">
-        <entry file="jrt:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home!/java.base/java/util/Stack.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#935#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="630">
+              <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -178,8 +165,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -190,7 +177,11 @@
       <find>ThreadPoolExecutor</find>
       <find>defaultHandler</find>
       <find>defaultForkJoinWorkerThreadFactory</find>
+      <find>VALUE</find>
       <find>newFixedThreadPool</find>
+      <find>compareAndSet</find>
+      <find>objectFieldOffset1</find>
+      <find>delta</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -199,14 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/Leecode191.java" />
-        <option value="$PROJECT_DIR$/src/leecode/Leecode191.java" />
-        <option value="$PROJECT_DIR$/src/leecode/Leecode190.java" />
-        <option value="$PROJECT_DIR$/src/leecode/Leecode155.java" />
-        <option value="$PROJECT_DIR$/src/algohub/SwapWithoutExtraSpace.java" />
-        <option value="$PROJECT_DIR$/src/leecode/Leecode189.java" />
-        <option value="$PROJECT_DIR$/src/leecode/Leecode201.java" />
-        <option value="$PROJECT_DIR$/src/leecode/Leecode206.java" />
         <option value="$PROJECT_DIR$/src/leecode/Leecode205.java" />
         <option value="$PROJECT_DIR$/src/leecode/Leecode203.java" />
         <option value="$PROJECT_DIR$/src/leecode/linkedlist/Leecode876.java" />
@@ -250,23 +233,30 @@
         <option value="$PROJECT_DIR$/src/algohub/StackByArray.kt" />
         <option value="$PROJECT_DIR$/src/algohub/QueueByStack.kt" />
         <option value="$PROJECT_DIR$/src/algohub/QueueByStack2.kt" />
+        <option value="$PROJECT_DIR$/src/test/AtomicTest.kt" />
+        <option value="$PROJECT_DIR$/src/algohub/CircleQueue.kt" />
+        <option value="$PROJECT_DIR$/src/algohub/CircleQueue2.kt" />
+        <option value="$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue.kt" />
+        <option value="$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue2.kt" />
+        <option value="$PROJECT_DIR$/src/algohub/CircularQueueByArray/Test.kt" />
+        <option value="$PROJECT_DIR$/src/algohub/linkedList/Node.kt" />
+        <option value="$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2" />
+    <option name="y" value="203" />
     <option name="width" value="1440" />
-    <option name="height" value="814" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,18 +275,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algohub" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="X-plan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="X-plan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algohub" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;Stack&#9;FILE&#9;jrt:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home!/java.base/java/util/Stack.class&#10;StringBu&#9;null&#9;null&#10;StringBui&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;Synchronous&#9;PSI&#9;JAVA://java.util.concurrent.SynchronousQueue&#10;DelayQ&#9;PSI&#9;JAVA://java.util.concurrent.DelayQueue&#10;LinkedB&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;CheckedEx&#9;PSI&#9;JAVA://com.sun.xml.internal.ws.api.model.CheckedException" />
+    <property name="SearchEverywhereHistoryKey" value="AbstractQu&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;AtomicA&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicIntegerArray&#10;AtomicI&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;Stack&#9;FILE&#9;jrt:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home!/java.base/java/util/Stack.class&#10;StringBu&#9;null&#9;null&#10;StringBui&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;Synchronous&#9;PSI&#9;JAVA://java.util.concurrent.SynchronousQueue&#10;DelayQ&#9;PSI&#9;JAVA://java.util.concurrent.DelayQueue&#10;LinkedB&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;CheckedEx&#9;PSI&#9;JAVA://com.sun.xml.internal.ws.api.model.CheckedException" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/algohub/CircularQueueByArray" />
       <recent name="$PROJECT_DIR$/src/book/linear" />
     </key>
   </component>
@@ -312,18 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.algohub.QueueByStack2Kt">
-    <configuration name="Builder_DP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Parttern.Builder_DP" />
-      <module name="X-plan" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Design_Parttern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.algohub.linkedList.LinkedListKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -343,6 +336,26 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="algohub.CircularQueueByArray.CircleQueueKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="X-plan" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="algohub.CircularQueueByArray.CircleQueueKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="algohub.CircularQueueByArray.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="X-plan" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="algohub.CircularQueueByArray.TestKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration name="algohub.QueueByStack2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="X-plan" />
       <option name="VM_PARAMETERS" />
@@ -353,34 +366,24 @@
       <option name="MAIN_CLASS_NAME" value="algohub.QueueByStack2Kt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="algohub.QueueByStackKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="algohub.linkedList.LinkedListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="X-plan" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="algohub.QueueByStackKt" />
+      <option name="MAIN_CLASS_NAME" value="algohub.linkedList.LinkedListKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="algohub.StackByArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="test.AtomicTestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="X-plan" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="algohub.StackByArrayKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration name="test.ReturnMoreKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="X-plan" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="test.ReturnMoreKt" />
+      <option name="MAIN_CLASS_NAME" value="test.AtomicTestKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -406,19 +409,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.test.ReturnMoreKt" />
-      <item itemvalue="Application.Builder_DP" />
-      <item itemvalue="Kotlin.algohub.StackByArrayKt" />
-      <item itemvalue="Kotlin.algohub.QueueByStackKt" />
       <item itemvalue="Kotlin.algohub.QueueByStack2Kt" />
+      <item itemvalue="Kotlin.test.AtomicTestKt" />
+      <item itemvalue="Kotlin.algohub.CircularQueueByArray.CircleQueueKt" />
+      <item itemvalue="Kotlin.algohub.CircularQueueByArray.TestKt" />
+      <item itemvalue="Kotlin.algohub.linkedList.LinkedListKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.algohub.linkedList.LinkedListKt" />
+        <item itemvalue="Kotlin.algohub.CircularQueueByArray.TestKt" />
+        <item itemvalue="Kotlin.algohub.CircularQueueByArray.CircleQueueKt" />
+        <item itemvalue="Kotlin.test.AtomicTestKt" />
         <item itemvalue="Kotlin.algohub.QueueByStack2Kt" />
-        <item itemvalue="Kotlin.algohub.QueueByStackKt" />
-        <item itemvalue="Kotlin.algohub.StackByArrayKt" />
-        <item itemvalue="Application.Builder_DP" />
-        <item itemvalue="Kotlin.test.ReturnMoreKt" />
       </list>
     </recent_temporary>
   </component>
@@ -440,43 +443,56 @@
       <option name="project" value="LOCAL" />
       <updated>1562001307194</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加部分练习...">
+      <created>1564469982186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564469982187</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="23" width="1440" height="814" extended-state="1" />
+    <frame x="2" y="23" width="1440" height="822" extended-state="6" />
     <layout>
+      <window_info anchor="right" id="Key Promoter X" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Cargo" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info anchor="right" id="Flutter Outline" order="5" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Translate" order="5" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.65" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6483957" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="JuliaSciView" order="5" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.6959459" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.6938503" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3310811" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29010695" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Color Manager" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="7" />
+      <window_info anchor="right" id="Flutter Inspector" order="5" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -484,11 +500,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加线程的基本概念..." />
-    <option name="LAST_COMMIT_MESSAGE" value="添加线程的基本概念..." />
+    <MESSAGE value="添加部分练习..." />
+    <option name="LAST_COMMIT_MESSAGE" value="添加部分练习..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
@@ -511,122 +528,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AD/BFS4Graph.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
-          <folding>
-            <element signature="e#12#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法(第四版).md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/book/AGcd.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3248">
-          <caret line="83" column="53" lean-forward="true" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="123" column="17" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="219" column="17" selection-start-line="219" selection-start-column="17" selection-end-line="219" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Future.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="93" column="67" lean-forward="true" selection-start-line="93" selection-start-column="67" selection-end-line="93" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/RunnableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/OutOfMemoryError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/VirtualMachineError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Error.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/InterruptedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
@@ -666,14 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2101">
           <caret line="1059" column="19" selection-start-line="1059" selection-start-column="19" selection-end-line="1059" selection-end-column="19" />
-          <folding>
-            <element signature="e#17393#17394#0" expanded="true" />
-            <element signature="e#17459#17460#0" expanded="true" />
-            <element signature="e#41278#41279#0" expanded="true" />
-            <element signature="e#41336#41337#0" expanded="true" />
-            <element signature="e#41873#41874#0" expanded="true" />
-            <element signature="e#41916#41917#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -761,18 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ExecutorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
-            <element signature="e#2404#2405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/util/Tuples.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -833,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ReturnMore.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2667">
@@ -872,10 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="344" column="32" selection-start-line="344" selection-start-column="32" selection-end-line="344" selection-end-column="32" />
-          <folding>
-            <element signature="e#12863#12864#0" expanded="true" />
-            <element signature="e#12903#12904#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,10 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
-          <folding>
-            <element signature="e#2807#2808#0" expanded="true" />
-            <element signature="e#2841#2842#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,25 +760,165 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
           <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#935#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algohub/QueueByStack.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
-          <caret line="95" column="31" lean-forward="true" selection-start-line="90" selection-start-column="2" selection-end-line="95" selection-end-column="31" />
+          <caret line="95" column="31" lean-forward="true" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicIntegerArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6857">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algohub/QueueByStack2.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="195">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="n#!!block;n#QueueByStack2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/AtomicTest.kt" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+          <folding>
+            <element signature="e#1699#1700#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#5955#5956#0" expanded="true" />
+            <element signature="e#6012#6013#0" expanded="true" />
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6340#6341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicIntegerFieldUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5835">
+          <caret line="433" column="28" selection-start-line="433" selection-start-column="28" selection-end-line="433" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/invoke/VarHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6060">
+          <caret line="439" column="22" selection-start-line="439" selection-start-column="22" selection-end-line="439" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33405">
+          <caret line="2295" column="29" selection-start-line="2295" selection-start-column="29" selection-end-line="2295" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5295">
+          <caret line="412" column="16" selection-start-line="412" selection-start-column="16" selection-end-line="412" selection-end-column="16" />
+          <folding>
+            <element signature="e#19430#20867#0" />
+            <element signature="e#21248#22976#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ExecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Library.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ReturnMore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-806">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/Test.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algohub/linkedList/Node.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="240" column="16" lean-forward="true" selection-start-line="240" selection-start-column="16" selection-end-line="240" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!block;n#insertAfterGivenNode#0;n#!!block;n#LinkedList#0" />
+            <element signature="n#!!block;n#append#0;n#!!block;n#LinkedList#0" />
+            <element signature="n#!!block;n#deleteNode#0;n#!!block;n#LinkedList#0" />
+            <element signature="n#!!block;n#deleteNodeByPosition#0;n#!!block;n#LinkedList#0" />
+            <element signature="n#!!block;n#getCountByIterative#0;n#!!block;n#LinkedList#0" />
+            <element signature="n#!!block;n#getCountByRecurisive#0;n#!!block;n#LinkedList#0" />
           </folding>
         </state>
       </provider>
