@@ -204,7 +204,7 @@ class LinkedList<T>() {
 
 
     fun swapNodes(x: T, y: T) {
-        // Nothin to do if x & y are same
+        // Nothing to do if x & y are same
         if (x == y) return
 
         // Search for x (跟踪preX and curX)
@@ -248,7 +248,44 @@ class LinkedList<T>() {
         curY.next = temp
     }
 
-//    fun swapNodes2()
+    fun swapNodes2(x: T, y: T) {
+        var tempHead = head
+        // 如果X & Y相等，无需交换
+        if (x == y) {
+            return
+        }
+
+        var xPointer: Node<T>? = null
+        var yPointer: Node<T>? = null
+
+        //遍历链表，并且存储x,y的指针
+        while (tempHead?.next != null) {
+            if (tempHead?.next?.data == x) {
+                xPointer = tempHead
+            }
+
+            if (tempHead?.next?.data == y) {
+                yPointer = tempHead
+            }
+
+            tempHead = tempHead.next
+        }
+
+        /**
+         * if we have found both x and y in linked list
+         * swap current pointer & next pointer
+         */
+        if (xPointer != null && yPointer != null){
+            var temp = xPointer.next
+            xPointer.next = yPointer.next
+            yPointer.next = temp
+
+            temp = xPointer.next?.next
+            xPointer.next?.next = yPointer.next?.next
+            yPointer.next?.next = temp
+        }
+
+    }
 
 
 }
@@ -286,5 +323,19 @@ fun main(args: Array<String>) {
     println("Iterative:${linkedList.getCountByIterative()}")
     println("Recursive:${linkedList.getCountByRecursive(linkedList.head)}")
 
+    println("========================")
+    val linkedList2 = LinkedList<Int>()
+    linkedList2.append(50)
+    linkedList2.append(40)
+    linkedList2.append(30)
+    linkedList2.append(20)
+    linkedList2.append(10)
+    linkedList2.printList()
+    println("交换10,50")
+    linkedList2.swapNodes(10,50)
+    linkedList2.printList()
+    println("第二种方式交换10,50")
+    linkedList2.swapNodes(10,50)
+    linkedList2.printList()
 
 }

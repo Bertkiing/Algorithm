@@ -2,48 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dee0c124-015e-41db-9d0a-9f256683e357" name="Default" comment="添加线程的基本概念...">
-      <change afterPath="$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algohub/CircularQueueByArray/Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algohub/linkedList/Node.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/BFS4GraphKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/BFS4GraphKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/BinaryTreeTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/BinaryTreeTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/BinaryTreeTraversalKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/BinaryTreeTraversalKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/AD/Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/AD/Vertex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/META-INF/X-plan.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/META-INF/X-plan.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/KLongestValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/KLongestValidParentheses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/KLongestValidParenthesesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/KLongestValidParenthesesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/KMinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/KMinStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/KValidParenthese.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/KValidParenthese.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/KValidParentheseKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/KValidParentheseKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStack2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStackKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/QueueByStackKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/StackByArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/StackByArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/algohub/StackByArrayKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/algohub/StackByArrayKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/book/AGcdKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/book/AGcdKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/book/LinearSearchKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/book/LinearSearchKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/book/MergeSortKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/book/MergeSortKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/book/binary/BinarySearchKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/book/binary/BinarySearchKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/leecode/Leecode390Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/leecode/Leecode390Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/Audi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/Audi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/AudiColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/AudiColor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/BMW.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/BMW.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/BMWColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/BMWColor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/KMaxKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/KMaxKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/KTestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/KTestKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/test/ReturnMoreKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/test/ReturnMoreKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/thread_review/BasicRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/thread_review/BasicRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/thread_review/ThreadBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/thread_review/ThreadBasic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X-plan/thread_review/ThreadBasicKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/thread_review/ThreadBasicKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,7 +43,7 @@
       <file leaf-file-name="CircleQueue.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-806">
+            <state relative-caret-position="255">
               <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             </state>
           </provider>
@@ -101,8 +61,8 @@
       <file leaf-file-name="Test.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/Test.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="390">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -119,15 +79,14 @@
       <file leaf-file-name="LinkedList.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="240" column="16" lean-forward="true" selection-start-line="240" selection-start-column="16" selection-end-line="240" selection-end-column="16" />
+            <state relative-caret-position="581">
+              <caret line="324" lean-forward="true" selection-start-line="324" selection-end-line="324" />
               <folding>
                 <element signature="n#!!block;n#insertAfterGivenNode#0;n#!!block;n#LinkedList#0" />
                 <element signature="n#!!block;n#append#0;n#!!block;n#LinkedList#0" />
                 <element signature="n#!!block;n#deleteNode#0;n#!!block;n#LinkedList#0" />
                 <element signature="n#!!block;n#deleteNodeByPosition#0;n#!!block;n#LinkedList#0" />
                 <element signature="n#!!block;n#getCountByIterative#0;n#!!block;n#LinkedList#0" />
-                <element signature="n#!!block;n#getCountByRecurisive#0;n#!!block;n#LinkedList#0" />
               </folding>
             </state>
           </provider>
@@ -244,9 +203,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="203" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="822" />
   </component>
@@ -454,7 +412,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1440" height="822" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="822" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -472,12 +431,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6483957" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="JuliaSciView" order="5" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.6938503" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29010695" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29010695" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
@@ -490,6 +448,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.6938503" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -499,9 +458,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加线程的基本概念..." />
     <MESSAGE value="添加部分练习..." />
-    <option name="LAST_COMMIT_MESSAGE" value="添加部分练习..." />
+    <MESSAGE value="添加线程的基本概念..." />
+    <option name="LAST_COMMIT_MESSAGE" value="添加线程的基本概念..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -792,14 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
           <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
-          <folding>
-            <element signature="e#1699#1700#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#5955#5956#0" expanded="true" />
-            <element signature="e#6012#6013#0" expanded="true" />
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6340#6341#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,7 +833,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-806">
+        <state relative-caret-position="255">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
@@ -896,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/Test.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="390">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -910,15 +861,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="240" column="16" lean-forward="true" selection-start-line="240" selection-start-column="16" selection-end-line="240" selection-end-column="16" />
+        <state relative-caret-position="581">
+          <caret line="324" lean-forward="true" selection-start-line="324" selection-end-line="324" />
           <folding>
             <element signature="n#!!block;n#insertAfterGivenNode#0;n#!!block;n#LinkedList#0" />
             <element signature="n#!!block;n#append#0;n#!!block;n#LinkedList#0" />
             <element signature="n#!!block;n#deleteNode#0;n#!!block;n#LinkedList#0" />
             <element signature="n#!!block;n#deleteNodeByPosition#0;n#!!block;n#LinkedList#0" />
             <element signature="n#!!block;n#getCountByIterative#0;n#!!block;n#LinkedList#0" />
-            <element signature="n#!!block;n#getCountByRecurisive#0;n#!!block;n#LinkedList#0" />
           </folding>
         </state>
       </provider>
@@ -926,9 +876,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>X-plan</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
