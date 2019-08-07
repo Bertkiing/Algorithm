@@ -1,0 +1,9 @@
+### Binary Tree
+
+####1 properties of binary
+
+[二叉树的性质](https://www.geeksforgeeks.org/binary-tree-set-2-properties/)
+
+1. 二叉树的 *L* 层节点最多有 **2^(L-1)**;
+2. 高度为 *H* 二叉树的节点数最多有 **2^H - 1**
+3. 

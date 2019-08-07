@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dee0c124-015e-41db-9d0a-9f256683e357" name="Default" comment="添加线程的基本概念...">
+    <list default="true" id="dee0c124-015e-41db-9d0a-9f256683e357" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algohub/binaryTree/Node.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algohub/binaryTree/二叉树特点" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/X-plan/META-INF/X-plan.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/META-INF/X-plan.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,31 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Unsafe.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5295">
-              <caret line="412" column="16" selection-start-line="412" selection-start-column="16" selection-end-line="412" selection-end-column="16" />
-              <folding>
-                <element signature="e#19430#20867#0" />
-                <element signature="e#21248#22976#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecutorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/ExecutorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CircleQueue.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedList.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="324" lean-forward="true" selection-start-line="324" selection-end-line="324" />
+            <state relative-caret-position="270">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <element signature="n#!!block;n#insertAfterGivenNode#0;n#!!block;n#LinkedList#0" />
                 <element signature="n#!!block;n#append#0;n#!!block;n#LinkedList#0" />
@@ -92,20 +72,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Arrays.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Arrays.kt">
+      <file leaf-file-name="Node.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/Node.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+            <state relative-caret-position="105">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Array.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
+      <file leaf-file-name="BinaryTree.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="600">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="n#!!block;n#printInOrder2#0;n#!!block;n#BinaryTree#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="二叉树特点" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/二叉树特点">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBinartyTree.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-71">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -125,8 +129,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -149,10 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leecode/Leecode205.java" />
-        <option value="$PROJECT_DIR$/src/leecode/Leecode203.java" />
-        <option value="$PROJECT_DIR$/src/leecode/linkedlist/Leecode876.java" />
-        <option value="$PROJECT_DIR$/src/leecode/linkedlist/Leecode237.java" />
         <option value="$PROJECT_DIR$/src/algohub/MaxSum4SubArray.java" />
         <option value="$PROJECT_DIR$/src/leecode/linkedlist/Leecode21.java" />
         <option value="$PROJECT_DIR$/src/leecode/linkedlist/Leecode141.java" />
@@ -200,6 +200,10 @@
         <option value="$PROJECT_DIR$/src/algohub/CircularQueueByArray/Test.kt" />
         <option value="$PROJECT_DIR$/src/algohub/linkedList/Node.kt" />
         <option value="$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt" />
+        <option value="$PROJECT_DIR$/src/algohub/binaryTree/二叉树特点" />
+        <option value="$PROJECT_DIR$/src/algohub/binaryTree/Node.kt" />
+        <option value="$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt" />
+        <option value="$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt" />
       </list>
     </option>
   </component>
@@ -238,7 +242,15 @@
               <item name="X-plan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algohub" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="binaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="X-plan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="X-plan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algohub" type="462c0819:PsiDirectoryNode" />
+              <item name="binaryTree" type="462c0819:PsiDirectoryNode" />
+              <item name="TestBinartyTree.kt" type="24436e51:KtFileTreeNode" />
             </path>
           </expand>
           <select />
@@ -274,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.algohub.linkedList.LinkedListKt">
+  <component name="RunManager" selected="Kotlin.algohub.binaryTree.TestBinartyTreeKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -314,14 +326,14 @@
       <option name="MAIN_CLASS_NAME" value="algohub.CircularQueueByArray.TestKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="algohub.QueueByStack2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="algohub.binaryTree.TestBinartyTreeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="X-plan" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="algohub.QueueByStack2Kt" />
+      <option name="MAIN_CLASS_NAME" value="algohub.binaryTree.TestBinartyTreeKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="algohub.linkedList.LinkedListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -367,19 +379,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.algohub.QueueByStack2Kt" />
       <item itemvalue="Kotlin.test.AtomicTestKt" />
       <item itemvalue="Kotlin.algohub.CircularQueueByArray.CircleQueueKt" />
       <item itemvalue="Kotlin.algohub.CircularQueueByArray.TestKt" />
       <item itemvalue="Kotlin.algohub.linkedList.LinkedListKt" />
+      <item itemvalue="Kotlin.algohub.binaryTree.TestBinartyTreeKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.algohub.binaryTree.TestBinartyTreeKt" />
         <item itemvalue="Kotlin.algohub.linkedList.LinkedListKt" />
         <item itemvalue="Kotlin.algohub.CircularQueueByArray.TestKt" />
         <item itemvalue="Kotlin.algohub.CircularQueueByArray.CircleQueueKt" />
         <item itemvalue="Kotlin.test.AtomicTestKt" />
-        <item itemvalue="Kotlin.algohub.QueueByStack2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -408,11 +420,27 @@
       <option name="project" value="LOCAL" />
       <updated>1564469982187</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="单链表添加：交换节点的操作...">
+      <created>1565006368034</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565006368034</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="822" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="822" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" />
@@ -429,18 +457,20 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6483957" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.328877" />
       <window_info anchor="right" id="JuliaSciView" order="5" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.6938503" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29010695" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29010695" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Color Manager" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="7" />
@@ -448,8 +478,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.6938503" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -460,11 +488,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加部分练习..." />
     <MESSAGE value="添加线程的基本概念..." />
-    <option name="LAST_COMMIT_MESSAGE" value="添加线程的基本概念..." />
+    <MESSAGE value="单链表添加：交换节点的操作..." />
+    <option name="LAST_COMMIT_MESSAGE" value="单链表添加：交换节点的操作..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="32" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
@@ -487,34 +516,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.xml.ws/com/sun/xml/internal/ws/api/model/CheckedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="35" column="66" lean-forward="true" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -859,16 +860,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/二叉树特点">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="324" lean-forward="true" selection-start-line="324" selection-end-line="324" />
+        <state relative-caret-position="270">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
             <element signature="n#!!block;n#insertAfterGivenNode#0;n#!!block;n#LinkedList#0" />
             <element signature="n#!!block;n#append#0;n#!!block;n#LinkedList#0" />
             <element signature="n#!!block;n#deleteNode#0;n#!!block;n#LinkedList#0" />
             <element signature="n#!!block;n#deleteNodeByPosition#0;n#!!block;n#LinkedList#0" />
             <element signature="n#!!block;n#getCountByIterative#0;n#!!block;n#LinkedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/Node.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="n#!!block;n#printInOrder2#0;n#!!block;n#BinaryTree#0" />
           </folding>
         </state>
       </provider>

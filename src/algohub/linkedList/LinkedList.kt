@@ -202,7 +202,13 @@ class LinkedList<T>() {
         }
     }
 
-
+    /********
+     *
+     * 交换链包的元素
+     *
+     * @href https://www.geeksforgeeks.org/swap-nodes-in-a-linked-list-without-swapping-data/
+     *
+     * **********/
     fun swapNodes(x: T, y: T) {
         // Nothing to do if x & y are same
         if (x == y) return
