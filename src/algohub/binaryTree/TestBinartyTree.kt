@@ -39,8 +39,20 @@ fun main(args: Array<String>) {
     binaryTree?.printPostOrder(binaryTree?.root)
     println()
 
-    println("中序遍历2:")
+    println("非递归中序遍历:")
     binaryTree?.printInOrder2(binaryTree?.root)
     println()
 
+    println("利用Queue的层次遍历:")
+    binaryTree?.printLevelOrder(binaryTree?.root)
+    println()
+
+    println("======================================")
+    val height = binaryTree?.getHeightOfTree(binaryTree?.root)
+    println("The height of Binary tree :$height")
+    print(" 3层的节点为:")
+    binaryTree?.printGivenLevel(binaryTree?.root, 3)
+    println()
+    println("利用递归的层次遍历:")
+    binaryTree?.printLevelOrder2()
 }

@@ -38,11 +38,62 @@ class BinaryTree<T>() {
         print("${node.key} ")
     }
 
-
-    fun printLevelOrder(node: Node<T>?){
+    /**
+     * @link https://www.geeksforgeeks.org/level-order-tree-traversal/
+     * 层次遍历(利用Queue)
+     * Time Complexity : O(n)
+     * */
+    fun printLevelOrder(node: Node<T>?) {
         val queue = LinkedList<Node<T>?>()
         queue.add(node)
+        while (queue.isNotEmpty()) {
+            val temp = queue.poll()
+            print("${temp?.key} ")
+
+            // Enqueue left child
+            if (temp?.left != null) {
+                queue.add(temp.left)
+            }
+            // Enqueue right child
+            if (temp?.right != null) {
+                queue.add(temp.right)
+            }
+            println("The Queue size:$queue")
+        }
     }
+
+    /* 获取树的高度 */
+    fun getHeightOfTree(root: Node<T>?): Int {
+        if (root == null) {
+            return 0
+        } else {
+            // 计算每个subtree 的高度
+            val leftHeight = getHeightOfTree(root?.left)
+            val rightHeight = getHeightOfTree(root?.right)
+
+            return if (leftHeight > rightHeight) leftHeight + 1 else rightHeight + 1
+        }
+    }
+
+    /* Print nodes at the given level */
+    fun printGivenLevel(root: Node<T>?, level: Int) {
+        if (root == null) return
+        if (level == 1) {
+            print("${root?.key} ")
+        } else {
+            printGivenLevel(root.left, level - 1)
+            printGivenLevel(root.right, level - 1)
+        }
+    }
+
+    /* 层次遍历 */
+    fun printLevelOrder2() {
+        val height = getHeightOfTree(root)
+        for (i in 1..height) {
+            printGivenLevel(root, i)
+        }
+    }
+
 
     /***************END*******递归遍历(traverse tree by recursion)**************************************/
 

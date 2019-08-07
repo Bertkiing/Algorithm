@@ -8,4 +8,7 @@ package algohub.binaryTree
 class Node<T>(var key: T) {
     var left: Node<T>? = null
     var right: Node<T>? = null
+    override fun toString(): String {
+        return "Node(key=$key)"
+    }
 }
