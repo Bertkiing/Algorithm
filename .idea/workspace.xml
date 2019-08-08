@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dee0c124-015e-41db-9d0a-9f256683e357" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algohub/array/RotateArray.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CircleQueue2.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue2.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Test.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/Test.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,8 +62,8 @@
       <file leaf-file-name="BinaryTree.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+            <state relative-caret-position="346">
+              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
               <folding>
                 <element signature="n#!!block;n#printInOrder2#0;n#!!block;n#BinaryTree#0" />
                 <element signature="n#!!block;n#printLevelOrder#0;n#!!block;n#BinaryTree#0" />
@@ -80,6 +71,15 @@
                 <element signature="n#!!block;n#printGivenLevel#0;n#!!block;n#BinaryTree#0" />
                 <element signature="n#!!block;n#printLevelOrder2#0;n#!!block;n#BinaryTree#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RotateArray.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algohub/array/RotateArray.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -114,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBinartyTree.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestBinartyTree.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="379">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -129,8 +129,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -153,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algohub/MaxSum4SubArray.java" />
         <option value="$PROJECT_DIR$/src/leecode/linkedlist/Leecode21.java" />
         <option value="$PROJECT_DIR$/src/leecode/linkedlist/Leecode141.java" />
         <option value="$PROJECT_DIR$/src/leecode/ReadMe.md" />
@@ -204,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/algohub/binaryTree/Node.kt" />
         <option value="$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt" />
         <option value="$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt" />
+        <option value="$PROJECT_DIR$/src/algohub/array/RotateArray.kt" />
       </list>
     </option>
   </component>
@@ -242,7 +242,7 @@
               <item name="X-plan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algohub" type="462c0819:PsiDirectoryNode" />
-              <item name="binaryTree" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.algohub.binaryTree.TestBinartyTreeKt">
+  <component name="RunManager" selected="Kotlin.algohub.array.RotateArrayKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -318,6 +318,16 @@
       <option name="MAIN_CLASS_NAME" value="algohub.CircularQueueByArray.TestKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
+    <configuration name="algohub.array.RotateArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="X-plan" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="algohub.array.RotateArrayKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration name="algohub.binaryTree.TestBinartyTreeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="X-plan" />
       <option name="VM_PARAMETERS" />
@@ -336,16 +346,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="algohub.linkedList.LinkedListKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration name="test.AtomicTestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="X-plan" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="test.AtomicTestKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -371,19 +371,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.test.AtomicTestKt" />
       <item itemvalue="Kotlin.algohub.CircularQueueByArray.CircleQueueKt" />
       <item itemvalue="Kotlin.algohub.CircularQueueByArray.TestKt" />
       <item itemvalue="Kotlin.algohub.linkedList.LinkedListKt" />
       <item itemvalue="Kotlin.algohub.binaryTree.TestBinartyTreeKt" />
+      <item itemvalue="Kotlin.algohub.array.RotateArrayKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.algohub.array.RotateArrayKt" />
         <item itemvalue="Kotlin.algohub.binaryTree.TestBinartyTreeKt" />
         <item itemvalue="Kotlin.algohub.linkedList.LinkedListKt" />
         <item itemvalue="Kotlin.algohub.CircularQueueByArray.TestKt" />
         <item itemvalue="Kotlin.algohub.CircularQueueByArray.CircleQueueKt" />
-        <item itemvalue="Kotlin.test.AtomicTestKt" />
       </list>
     </recent_temporary>
   </component>
@@ -508,13 +508,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2101">
@@ -883,10 +876,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+        <state relative-caret-position="346">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
           <folding>
             <element signature="n#!!block;n#printInOrder2#0;n#!!block;n#BinaryTree#0" />
             <element signature="n#!!block;n#printLevelOrder#0;n#!!block;n#BinaryTree#0" />
@@ -897,10 +897,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt">
+    <entry file="file://$PROJECT_DIR$/src/algohub/array/RotateArray.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="247">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
         </state>
       </provider>
     </entry>
