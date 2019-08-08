@@ -38,6 +38,31 @@ class BinaryTree<T>() {
         print("${node.key} ")
     }
 
+    /***************END*******递归遍历(traverse tree by recursion)**************************************/
+
+    /**
+     * 非递归形式的中序遍历
+     * https://blog.csdn.net/zhangxiangDavaid/article/details/37115355
+     */
+    fun printInOrder2(node: Node<T>?) {
+        if (node == null) return
+
+        val stack = Stack<Node<T>?>()
+        var temp = node
+
+        while (temp != null || stack.isNotEmpty()) {
+            //一直遍历左子树，直到左子树为null为止
+            while (temp != null) {
+                stack.push(temp)
+                temp = temp?.left
+            }
+
+            temp = stack.pop()
+            print("${temp?.key} ")
+            temp = temp?.right
+        }
+    }
+
     /**
      * @link https://www.geeksforgeeks.org/level-order-tree-traversal/
      * 层次遍历(利用Queue)
@@ -95,30 +120,7 @@ class BinaryTree<T>() {
     }
 
 
-    /***************END*******递归遍历(traverse tree by recursion)**************************************/
-
-    /**
-     * 非递归形式的中序遍历
-     * https://blog.csdn.net/zhangxiangDavaid/article/details/37115355
-     */
-    fun printInOrder2(node: Node<T>?) {
-        if (node == null) return
-
-        val stack = Stack<Node<T>?>()
-        var temp = node
-
-        while (temp != null || stack.isNotEmpty()) {
-            //一直遍历左子树，直到左子树为null为止
-            while (temp != null) {
-                stack.push(temp)
-                temp = temp?.left
-            }
-
-            temp = stack.pop()
-            print("${temp?.key} ")
-            temp = temp?.right
-        }
-    }
+  
 
 
 }

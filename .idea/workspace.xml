@@ -4,7 +4,6 @@
     <list default="true" id="dee0c124-015e-41db-9d0a-9f256683e357" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algohub/binaryTree/Node.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/binaryTree/Node.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CircleQueue.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CircleQueue2.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue2.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,12 +71,24 @@
       <file leaf-file-name="BinaryTree.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="1200">
+              <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
               <folding>
-                <element signature="n#!!block;n#printLevelOrder#0;n#!!block;n#BinaryTree#0" />
                 <element signature="n#!!block;n#printInOrder2#0;n#!!block;n#BinaryTree#0" />
+                <element signature="n#!!block;n#printLevelOrder#0;n#!!block;n#BinaryTree#0" />
+                <element signature="n#!!block;n#getHeightOfTree#0;n#!!block;n#BinaryTree#0" />
+                <element signature="n#!!block;n#printGivenLevel#0;n#!!block;n#BinaryTree#0" />
+                <element signature="n#!!block;n#printLevelOrder2#0;n#!!block;n#BinaryTree#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -115,8 +117,8 @@
       <file leaf-file-name="TestBinartyTree.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="56" column="34" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+            <state relative-caret-position="304">
+              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -200,8 +202,8 @@
         <option value="$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt" />
         <option value="$PROJECT_DIR$/src/algohub/binaryTree/二叉树特点" />
         <option value="$PROJECT_DIR$/src/algohub/binaryTree/Node.kt" />
-        <option value="$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt" />
         <option value="$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt" />
+        <option value="$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt" />
       </list>
     </option>
   </component>
@@ -692,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home!/java.base/java/util/Stack.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
@@ -881,21 +876,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/BinaryTree.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="1200">
+          <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
           <folding>
-            <element signature="n#!!block;n#printLevelOrder#0;n#!!block;n#BinaryTree#0" />
             <element signature="n#!!block;n#printInOrder2#0;n#!!block;n#BinaryTree#0" />
+            <element signature="n#!!block;n#printLevelOrder#0;n#!!block;n#BinaryTree#0" />
+            <element signature="n#!!block;n#getHeightOfTree#0;n#!!block;n#BinaryTree#0" />
+            <element signature="n#!!block;n#printGivenLevel#0;n#!!block;n#BinaryTree#0" />
+            <element signature="n#!!block;n#printLevelOrder2#0;n#!!block;n#BinaryTree#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/TestBinartyTree.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="56" column="34" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+        <state relative-caret-position="304">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
         </state>
       </provider>
     </entry>

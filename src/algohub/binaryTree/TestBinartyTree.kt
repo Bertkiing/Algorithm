@@ -55,4 +55,6 @@ fun main(args: Array<String>) {
     println()
     println("利用递归的层次遍历:")
     binaryTree?.printLevelOrder2()
+
+
 }
