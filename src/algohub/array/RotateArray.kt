@@ -24,7 +24,6 @@ class RotateArray {
         println(array.toList())
     }
 
-
 }
 
 fun main(args: Array<String>) {
