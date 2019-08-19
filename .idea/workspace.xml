@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dee0c124-015e-41db-9d0a-9f256683e357" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/CLHLock.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ListFilter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread_review/MutilThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/proxy/BMWCar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/proxy/BenZiCar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/proxy/CarProxy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/proxy/FerrariCar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/proxy/ICar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/proxy/Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/strategy/CacheDataCenter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/strategy/CloudDataCenter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/strategy/Context.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/strategy/IDataCenter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/strategy/LocalDataCenter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Parttern/strategy/Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/X-plan/META-INF/X-plan.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X-plan/META-INF/X-plan.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread_review/LockSupportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread_review/LockSupportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ListFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ListFilter.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,81 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4200">
-              <caret line="318" column="16" selection-start-line="318" selection-start-column="16" selection-end-line="318" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#91231#0" expanded="true" />
-                <element signature="e#24256#24257#0" expanded="true" />
-                <element signature="e#24284#24285#0" expanded="true" />
-                <element signature="e#34135#34136#0" expanded="true" />
-                <element signature="e#34185#34186#0" expanded="true" />
-                <element signature="e#42624#42625#0" expanded="true" />
-                <element signature="e#42681#42682#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountDownLatch.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/CountDownLatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="160" column="7" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CLHSDB.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/jdk.hotspot.agent/sun/jvm/hotspot/CLHSDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2505">
-              <caret line="209" column="19" selection-start-line="209" selection-start-column="19" selection-end-line="209" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CLHLock.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/CLHLock.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractQueuedLongSynchronizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17760">
-              <caret line="1241" column="61" selection-start-line="1241" selection-start-column="61" selection-end-line="1241" selection-end-column="61" />
-              <folding>
-                <element signature="e#22280#22281#0" expanded="true" />
-                <element signature="e#22337#22338#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecutorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/ExecutorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ListFilter.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/ListFilter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="43">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -130,8 +69,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -174,18 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AD/Node.java" />
-        <option value="$PROJECT_DIR$/src/AD/Test01.java" />
-        <option value="$PROJECT_DIR$/src/AD/DoubleLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/AD/BinaryTreeTraversal.kt" />
-        <option value="$PROJECT_DIR$/src/AD/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/sort/Tree.java" />
-        <option value="$PROJECT_DIR$/src/AD/KMP4String.java" />
-        <option value="$PROJECT_DIR$/src/AD/BF4String.java" />
-        <option value="$PROJECT_DIR$/src/AD/KMP.java" />
-        <option value="$PROJECT_DIR$/src/AD/RPN.java" />
-        <option value="$PROJECT_DIR$/src/AD/HuffmanTree.java" />
-        <option value="$PROJECT_DIR$/src/leecode/Leecode390.kt" />
         <option value="$PROJECT_DIR$/src/test/KTest.kt" />
         <option value="$PROJECT_DIR$/src/test/MaxTest.kt" />
         <option value="$PROJECT_DIR$/src/test/KMax.kt" />
@@ -225,6 +153,18 @@
         <option value="$PROJECT_DIR$/src/thread_review/MutilThreadTest.java" />
         <option value="$PROJECT_DIR$/src/test/CLHLock.kt" />
         <option value="$PROJECT_DIR$/src/test/ListFilter.kt" />
+        <option value="$PROJECT_DIR$/src/Design_Parttern/proxy/CarProxy.kt" />
+        <option value="$PROJECT_DIR$/src/Design_Parttern/proxy/BenZiCar.kt" />
+        <option value="$PROJECT_DIR$/src/Design_Parttern/proxy/BMWCar.kt" />
+        <option value="$PROJECT_DIR$/src/Design_Parttern/proxy/FerrariCar.kt" />
+        <option value="$PROJECT_DIR$/src/Design_Parttern/proxy/ICar.kt" />
+        <option value="$PROJECT_DIR$/src/Design_Parttern/proxy/Test.kt" />
+        <option value="$PROJECT_DIR$/src/Design_Parttern/strategy/IDataCenter.kt" />
+        <option value="$PROJECT_DIR$/src/Design_Parttern/strategy/CloudDataCenter.kt" />
+        <option value="$PROJECT_DIR$/src/Design_Parttern/strategy/LocalDataCenter.kt" />
+        <option value="$PROJECT_DIR$/src/Design_Parttern/strategy/CacheDataCenter.kt" />
+        <option value="$PROJECT_DIR$/src/Design_Parttern/strategy/Context.kt" />
+        <option value="$PROJECT_DIR$/src/Design_Parttern/strategy/Test.kt" />
       </list>
     </option>
   </component>
@@ -265,14 +205,14 @@
               <item name="X-plan" type="1abcf292:AndroidViewProjectNode" />
               <item name="X-plan" type="e9137016:NonAndroidModuleNode" />
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Design_Parttern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="X-plan" type="1abcf292:AndroidViewProjectNode" />
               <item name="X-plan" type="e9137016:NonAndroidModuleNode" />
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="ListFilter.kt" type="24436e51:KtFileTreeNode" />
+              <item name="Design_Parttern" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.test.ListFilterKt">
+  <component name="RunManager" selected="Kotlin.Design_Parttern.strategy.TestKt">
     <configuration name="LockSupportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread_review.LockSupportTest" />
       <module name="X-plan" />
@@ -324,17 +264,6 @@
     </configuration>
     <configuration name="MutilThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread_review.MutilThreadTest" />
-      <module name="X-plan" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread_review.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread_review.TestWait" />
       <module name="X-plan" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -363,6 +292,26 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Design_Parttern.proxy.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="X-plan" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Design_Parttern.proxy.TestKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="Design_Parttern.strategy.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="X-plan" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Design_Parttern.strategy.TestKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration name="test.ListFilterKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="X-plan" />
       <option name="VM_PARAMETERS" />
@@ -371,16 +320,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="test.ListFilterKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration name="thread_review.MyThreadKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="X-plan" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="thread_review.MyThreadKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -406,19 +345,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.thread_review.MyThreadKt" />
-      <item itemvalue="Application.TestWait" />
       <item itemvalue="Application.LockSupportTest" />
       <item itemvalue="Application.MutilThreadTest" />
       <item itemvalue="Kotlin.test.ListFilterKt" />
+      <item itemvalue="Kotlin.Design_Parttern.proxy.TestKt" />
+      <item itemvalue="Kotlin.Design_Parttern.strategy.TestKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Design_Parttern.strategy.TestKt" />
+        <item itemvalue="Kotlin.Design_Parttern.proxy.TestKt" />
         <item itemvalue="Kotlin.test.ListFilterKt" />
         <item itemvalue="Application.MutilThreadTest" />
         <item itemvalue="Application.LockSupportTest" />
-        <item itemvalue="Application.TestWait" />
-        <item itemvalue="Kotlin.thread_review.MyThreadKt" />
       </list>
     </recent_temporary>
   </component>
@@ -468,6 +407,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -490,11 +430,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29028133" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29028133" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32992327" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32992327" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.16444983" visible="true" weight="0.25751072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.16444983" visible="true" weight="0.25751072" />
       <window_info anchor="right" id="Color Manager" order="5" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -542,100 +482,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicIntegerFieldUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5835">
-          <caret line="433" column="28" selection-start-line="433" selection-start-column="28" selection-end-line="433" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Library.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ReturnMore.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/CircleQueue2.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algohub/CircularQueueByArray/Test.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algohub/linkedList/Node.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/二叉树特点">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algohub/linkedList/LinkedList.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9495">
-          <caret line="674" column="7" selection-start-line="674" selection-start-column="7" selection-end-line="674" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algohub/binaryTree/Node.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -908,10 +754,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ListFilter.kt">
+    <entry file="file://$PROJECT_DIR$/src/Design_Parttern/proxy/BMW.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design_Parttern/proxy/BMWCar.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design_Parttern/proxy/Test.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design_Parttern/proxy/CarProxy.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design_Parttern/proxy/FerrariCar.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design_Parttern/proxy/BenZiCar.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design_Parttern/proxy/ICar.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design_Parttern/strategy/CacheDataCenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design_Parttern/strategy/LocalDataCenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design_Parttern/strategy/CloudDataCenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design_Parttern/strategy/IDataCenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design_Parttern/strategy/Test.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design_Parttern/strategy/Context.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ListFilter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>
