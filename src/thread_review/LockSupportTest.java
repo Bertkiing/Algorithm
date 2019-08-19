@@ -7,6 +7,7 @@ import java.util.concurrent.locks.LockSupport;
  * @date 2019/8/14
  *
  * @ref http://ifeve.com/locksuppor-source/
+ * @ref https://www.jianshu.com/p/f1f2cd289205
  *
  * <p>
  * JUC(java.util.concurrent)
