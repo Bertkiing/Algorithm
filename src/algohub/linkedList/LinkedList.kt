@@ -311,6 +311,7 @@ fun main(args: Array<String>) {
     linkedList.headInsert(1)
     linkedList.headInsert(2)
     linkedList.headInsert(3)
+    linkedList.headInsert(3)
     linkedList.headInsert(4)
     linkedList.printList()
     println("头节点的下一个节点后面插入一个元素...")
@@ -318,9 +319,11 @@ fun main(args: Array<String>) {
     linkedList.printList()
     println("尾插法")
     linkedList.printList()
+
     println("删除元素...")
-    linkedList.deleteNode(40)
+    linkedList.deleteNode(3)
     linkedList.printList()
+
     print("按位置删除元素...")
     linkedList.deleteNodeByPosition(1)
     linkedList.printList()

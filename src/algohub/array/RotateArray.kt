@@ -24,10 +24,18 @@ class RotateArray {
         println(array.toList())
     }
 
+
+    fun leftRotate2(array: IntArray, n: Int) {
+        var temp = 0
+        for (i in 0 until n) {
+            temp = array[array.size - 1]
+        }
+    }
+
 }
 
 fun main(args: Array<String>) {
-    val array = intArrayOf(1, 2, 3, 4, 5, 6)
+    val array = intArrayOf(1, 2, 3, 4, 5)
     val rotateArray = RotateArray()
-    rotateArray.leftRotate(array, 2)
+    rotateArray.leftRotate2(array, 3)
 }

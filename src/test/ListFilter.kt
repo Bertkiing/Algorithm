@@ -36,6 +36,9 @@ fun main(args: Array<String>) {
     // println("${test.toInt()}")//NumberFormatException
     println("使用toBigInteger:${test.toBigInteger()}")
 
+    val test2 = "name/"
+    val split = test2.split("/")
+    println("${split[0]},${split[1]}")
 
 
 }
