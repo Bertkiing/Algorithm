@@ -1,5 +1,7 @@
 package leecode
 
+import kotlin.math.min
+
 /**
  * @author bertking
  * @date 2019/8/29
@@ -177,6 +179,84 @@ class Solution3 {
 
 }
 
+/**
+ * https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/zhen-zheng-ologmnde-jie-fa-na-xie-shuo-gui-bing-pa/
+ */
+class Solution4 {
+
+    fun findMedianSortedArrays(num1: IntArray, num2: IntArray): Double {
+        val size1 = num1.size
+        val size2 = num2.size
+        //处理任何一个nums为空数组的情况
+        if (size1 == 0) {
+            return if ((size2 and 1) == 0) {
+                (num2[size2 / 2] + num2[size2 / 2 - 1]) / 2.0
+            } else {
+                (num2[size2] / 2.0)
+            }
+        }
+
+        if (size2 == 0) {
+            return if ((size1 and 1) == 0) {
+                (num1[size1 / 2] + num1[size1 / 2 - 1]) / 2.0
+            } else {
+                (num1[size1] / 2.0)
+            }
+        }
+
+        val total = size1 + size2
+        //总数为奇数，找第 total / 2 + 1 个数
+        return if ((total and 1) == 1) {
+            findKth(num1, 0, num2, 0, total / 2 + 1)
+        } else {
+            //总数为偶数，找第 total / 2 个数和第total / 2 + 1个数的平均值
+            (findKth(num1, 0, num2, 0, total / 2) + findKth(num1, 0, num2, 0, total / 2 + 1)) / 2.0;
+        }
+
+
+    }
+
+
+    // 寻找a & b 数组中的第k个数字
+    fun findKth(a: IntArray, aBegin: Int, b: IntArray, bBegin: Int, k: Int): Double {
+        // 当a or b超过数组长度，则第k个数为另一个数组的第k个数
+        if (aBegin >= a.size) {
+            return b[bBegin + k - 1].toDouble()
+        }
+
+        if (bBegin >= b.size) {
+            return a[aBegin + k - 1].toDouble()
+        }
+        // k = 1时，两数组最小的为第一个数
+        if (k == 1) {
+            return min(a[aBegin], b[bBegin]).toDouble()
+        }
+        // aMid,bMid 分别表示a数组，b数组中的第k/2个数
+        var aMid = Int.MAX_VALUE
+        var bMid = Int.MAX_VALUE
+
+        if (aBegin + k / 2 - 1 < a.size) {
+            aMid = a[aBegin + k / 2 - 1]
+        }
+
+        if (bBegin + k / 2 - 1 < b.size) {
+            bMid = b[bBegin + k / 2 - 1]
+        }
+
+        /**
+         * 如果a数组的第k/2个数 < b数组的第k/2个数，---》表示总的第k个数位于 a的第k/2的后半段 OR b的第k/2的前半段
+         *
+         * 由于范围缩小了k/2个数，此时总的第k个数实际上等于新的范围内的第k-k/2个数，以此递归
+         */
+        if (aMid < bMid) {
+            return findKth(a, aBegin + k / 2, b, bBegin, k - k / 2)
+        } else {
+            return findKth(a, aBegin, b, bBegin + k / 2, k - k / 2)
+        }
+
+    }
+}
+
 
 fun main(args: Array<String>) {
     val array1 = intArrayOf(1, 2, 4, 5)
@@ -196,5 +276,6 @@ fun main(args: Array<String>) {
     val median2 = Solution2.findMedianSortedArrays(array1, array2)
     println("有序数组的中位数$median2")
 
-
+    val median4 = Solution4().findMedianSortedArrays(array1, array2)
+    println("有序数组的中位数$median4")
 }
