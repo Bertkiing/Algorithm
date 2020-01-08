@@ -25,7 +25,7 @@ public class Leecode141 {
     public boolean hasCycle(ListNode head) {
 
         /**
-         * 这里的两个运动员开始在同一位置(head)出发...
+         * 这里的两个运动员开始在同一位置(heap)出发...
          */
         ListNode fast = head;
         ListNode slow = head;
@@ -88,7 +88,7 @@ public class Leecode141 {
         while (head.next != null){
             /**
              * 看链表的节点，一定不能单独地看一个节点：
-             * temp = head. 则意味着 temp 和head 一样都是指的是以head为开头的链表。（可以想象自己拿着铁链的头，则就拿到了整条铁链）
+             * temp = heap. 则意味着 temp 和head 一样都是指的是以head为开头的链表。（可以想象自己拿着铁链的头，则就拿到了整条铁链）
              */
             ListNode temp = head;
             head = head.next;

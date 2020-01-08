@@ -55,7 +55,7 @@ public class Leecode876 {
         while (fast != null) {
             slow = slow.next;
             fast = fast.next;
-            if (fast != null) {
+            if (fast.next != null) {
                 fast = fast.next;
             }
         }
@@ -101,11 +101,11 @@ public class Leecode876 {
          *
          *
          * while(length >0){
-         *     head = head.next;
+         *     heap = heap.next;
          *     length --;
          * }
          *
-         * return head;
+         * return heap;
          */
         current = head;
         while (length > 0) {

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="retrofit-2.6.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/retrofit-2.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/retrofit-2.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

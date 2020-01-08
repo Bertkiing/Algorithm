@@ -22,7 +22,7 @@ public class Leecode237 {
      * 注意C语言要手动是否最后一个元素的内存...
      * @param node
      */
-    public void deleteNode(ListNode node) {
+    public static void deleteNode(ListNode node) {
         if(node.next == null) return;
         node.val = node.next.val;
         if(node.next.next != null){
@@ -32,7 +32,34 @@ public class Leecode237 {
         }
     }
 
+    public static void main(String[] args) {
+        ListNode head = new ListNode(4);
+        ListNode node = new ListNode(2);
+        ListNode node1 = new ListNode(1);
+        ListNode node2 = new ListNode(9);
 
+        head.next = node;
+        node.next = node1;
+        node1.next = node2;
+        printList(head);
+        System.out.println("--------");
+        deleteNode2(node);
+        printList(head);
+
+    }
+
+    public  static void deleteNode2(ListNode node) {
+       node.val = node.next.val;
+       node.next = node.next.next;
+    }
+
+
+   public static void printList(ListNode node){
+        while (node != null){
+            System.out.println("V:"+node.val);
+            node = node.next;
+        }
+   }
 
 
     static class ListNode{

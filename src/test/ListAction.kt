@@ -10,6 +10,19 @@ fun main(args: Array<String>) {
     for (i in 0..5) {
         list1.add(i)
     }
+
+    val sortedBy = list1.sortedByDescending {
+        it
+    }
+    println("sortedBy:$sortedBy")
+
+    println("list1 :$list1")
+    list1.sortByDescending {
+        it
+    }
+
+    println("list1 :$list1")
+
     list1[2] = 10
     println("list1 = $list1")
 

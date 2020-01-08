@@ -21,7 +21,7 @@ class Solution {
      * 2. 寻找递归结束条件
      * 3. 找出函数的等价关系式
      *
-     * 此处思路:head.value == value 就传递head.next ,相当于跳过这个节点
+     * 此处思路:heap.value == value 就传递head.next ,相当于跳过这个节点
      */
     fun removeElements(head: ListNode?, value: Int): ListNode? {
         if (head == null) return head
@@ -36,7 +36,7 @@ class Solution {
 
     /**
      * 直接进行判断
-     * 若等于 val ，则让 head 指向它的下一个结点继续判断。
+     * 若等于 val ，则让 heap 指向它的下一个结点继续判断。
      */
     fun removeElements2(head: ListNode?, value: Int): ListNode? {
         var head = head

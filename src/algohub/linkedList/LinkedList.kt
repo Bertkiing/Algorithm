@@ -7,11 +7,11 @@ import java.lang.IllegalArgumentException
  * @date 2019/8/1
  */
 class LinkedList<T>() {
-    // head of list
+    // heap of list
     var head: Node<T>? = null
 
     /**
-     * print elements of linked list starting from head
+     * print elements of linked list starting from heap
      */
     fun printList() {
         var temp = head
@@ -39,18 +39,18 @@ class LinkedList<T>() {
     fun headInsert(element: T) {
         var newNode = Node(element)
         // 判断当前链表是否是第一次赋值
-//        if(head == null){
-//            head = newNode
+//        if(heap == null){
+//            heap = newNode
 //        }else{
-//            // 3.Make next of new Node as head...（使新节点的next做为head）将新节点连接到链表的头部
-//            newNode.next = head!!
-//            // 4.Move the head to point to new Node（移动头指针指向新节点）Header永远存储的是第一个节点的地址
-//            head = newNode
+//            // 3.Make next of new Node as heap...（使新节点的next做为head）将新节点连接到链表的头部
+//            newNode.next = heap!!
+//            // 4.Move the heap to point to new Node（移动头指针指向新节点）Header永远存储的是第一个节点的地址
+//            heap = newNode
 //        }
 
-        // 3.Make next of new Node as head...（使新节点的next做为head）将新节点连接到链表的头部
+        // 3.Make next of new Node as heap...（使新节点的next做为head）将新节点连接到链表的头部
         newNode.next = head
-        // 4.Move the head to point to new Node（移动头指针指向新节点）Header永远存储的是第一个节点的地址
+        // 4.Move the heap to point to new Node（移动头指针指向新节点）Header永远存储的是第一个节点的地址
         head = newNode
     }
 
@@ -118,7 +118,7 @@ class LinkedList<T>() {
      * @param key 指定元素
      */
     fun deleteNode(key: T) {
-        // Store head node
+        // Store heap node
         var temp = head
         var prev: Node<T>? = null
         /**
@@ -150,7 +150,7 @@ class LinkedList<T>() {
      */
     fun deleteNodeByPosition(position: Int) {
         if (head == null) return
-        // 存储head Store head node...
+        // 存储head Store heap node...
         var temp: Node<T>? = head
         // 删除head
         if (position == 0) {

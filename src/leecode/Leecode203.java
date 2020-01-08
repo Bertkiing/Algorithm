@@ -46,7 +46,7 @@ public class Leecode203 {
 
 
     /**
-     * 没有构建头节点(Dummy head)，而是通过null来虚拟
+     * 没有构建头节点(Dummy heap)，而是通过null来虚拟
      * 重点：需要判断prev是否为null.
      * @param head
      * @param val
