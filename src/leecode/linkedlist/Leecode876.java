@@ -118,7 +118,7 @@ public class Leecode876 {
 
 
     /**
-     * 好方法
+     * 双指针另一种思路 奇数变 偶数不变
      *
      * @param head
      * @return

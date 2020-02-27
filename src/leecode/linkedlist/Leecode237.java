@@ -48,6 +48,13 @@ public class Leecode237 {
 
     }
 
+    /**
+     *
+     *
+     *
+     *
+     * @param node
+     */
     public  static void deleteNode2(ListNode node) {
        node.val = node.next.val;
        node.next = node.next.next;

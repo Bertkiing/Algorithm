@@ -1,8 +1,15 @@
-package leecode
+package leecode.array
 
 /**
  * @author bertking
  * @date 2020/1/6
+ *
+ *
+ *
+ * 求解最大子数组问题用Kadane's algorithm。
+ * 卡登算法的思想是，给定一个数组A，假如我们已经知道了以数组第i个位置结尾的最大子数组为𝐵𝑖，
+ * 那么在第i+1个位置结尾的最大子数组要么包含𝐵𝑖,要么不包含𝐵𝑖，
+ * 如果将𝐵看作是动态规划当中的状态，那么状态转移方程是：𝐵𝑖+1=𝑚𝑎𝑥(𝐴𝑖,𝐴𝑖+𝐵𝑖)
  *
  * 清华2018原题
  *
@@ -12,9 +19,9 @@ package leecode
  */
 
 fun main(args: Array<String>) {
-    var array = intArrayOf(-2, 1, -3, 4, -1, 2, 1, -5, 4)
+    var array = intArrayOf(-2)
     var array1 = intArrayOf(1)
-    println("Result:${maxSubArray4(array)}")
+    println("Result:${maxSubArray6(array)}")
 }
 
 
@@ -78,7 +85,6 @@ fun maxSubArray3(nums: IntArray): Int {
         }
         maxSum = Math.max(maxSum, sum)
     }
-
     return maxSum
 }
 
@@ -123,4 +129,24 @@ fun maxSubArray5(nums: IntArray): Int {
         maxSum = Math.max(maxSum, nums[i])
     }
     return maxSum
+}
+
+
+fun maxSubArray6(nums: IntArray): Int {
+    var max_so_far = 0
+    var max_ending_here = 0
+
+    for (n in nums){
+        max_ending_here += n
+
+        if(max_ending_here < 0) {
+            max_ending_here = 0
+        }
+
+        if(max_so_far < max_ending_here){
+            max_so_far = max_ending_here
+        }
+    }
+
+    return max_so_far
 }

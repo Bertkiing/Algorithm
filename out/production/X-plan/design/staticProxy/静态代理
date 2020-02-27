@@ -1,0 +1,54 @@
+### 代理模式
+
+1. 代理模式的功能：
+    1. 通过代理控制对象的访问；
+    2. 当无法或者不希望直接访问对象时，通过代理达到访问对象的目的；
+    
+2. 代理模式的种类：
+    1. 静态代理(Static Proxy) 
+    2. 动态代理(Dynamic Proxy)
+    
+3. 代理模式涉及的角色：
+    1. 抽象角色：声明真实对象和代理对象的共同接口；
+    2. 代理角色：
+        1. 其内部含有对真实对象的引用，从而可以操作真实对象;
+        2. 同时其提供与真实对象相同的接口以便在任何时刻都能代替真实对象;
+        3. 其可以在执行真实对象操作时，附加其他的操作，相当于对真实对象进行封装;(类似于装饰者模式)
+    3. 真实角色：代理角色所代表的真实对象，是我们最终要引用的对象;
+ 
+4. 举例(卖房中介):
+    1. 角色：
+        1. 抽象角色：IHouseSeller;
+        2. 真实角色：HouseOwner
+        3. 代理角色：Proxy4House;
+       
+```
+    //1. 抽象对象
+    public interface IHouseSeller {
+        void sellHouse();
+    }
+    
+    
+    //2. 真实角色 
+    public class HouseOwner implements IHouseSeller {
+        @Override
+        public void sellHouse() {
+            System.out.println("我是房东，我要卖房子");
+        }
+    }
+    
+    // 3. 代理角色
+        public class Proxy4House implements IHouseSeller {
+            
+            private HouseOwner owner = null;
+        
+            @Override
+            public void sellHouse() {
+                System.out.println("这里是房屋中介：");
+                if (owner == null) {
+                    owner = new HouseOwner();
+                }
+                owner.sellHouse();
+            }
+        }
+```
